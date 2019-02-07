@@ -1,0 +1,8 @@
+ID: HW2_Yurkavets
+_schema-version: 2.1
+version: 0.0.1
+resources:
+    - name: my_connectivity
+      type: connectivity
+    - name: my_destination
+      type: destination
