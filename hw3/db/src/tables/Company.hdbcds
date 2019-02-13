@@ -1,0 +1,16 @@
+namespace HW3_Yurkavets; 
+ 
+entity Company {     
+	@Comment: 'Id of Company'     
+	key usid : String(4);     
+	@Comment: 'Name'     
+	name : String(100);
+	@Comment: 'Start Date'
+	startDate : LocalDate;
+	@Comment: 'Status'     
+	status : String(20);     
+	@Comment: 'Country'     
+	country : String(100);
+	@Comment: 'Currency'
+	currency: String(3);
+}; 
