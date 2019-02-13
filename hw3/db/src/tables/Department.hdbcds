@@ -1,0 +1,19 @@
+namespace HW3_Yurkavets; 
+using HW3_Yurkavets::Company;
+ 
+entity Department {     
+	@Comment: 'Id of Department'     
+	key departmentId : String(4);     
+	@Comment: 'Name'     
+	name : String(100);
+	@Comment: 'Start Date'
+	startDate : LocalDate;
+	@Comment: 'Status'     
+	status : String(20);     
+	@Comment: 'Head of Department'     
+	country : String(100);
+	@Comment: 'Company for Department'     
+	key companyId : String(4);
+	
+	toCompany : Association[1] to Company on toCompany.companyId = companyId;
+}; 
