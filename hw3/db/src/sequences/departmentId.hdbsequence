@@ -1,0 +1,1 @@
+SEQUENCE "HW3_Yurkavets::departmentId" START WITH 1000 MAXVALUE 9999

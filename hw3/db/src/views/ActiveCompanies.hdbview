@@ -1,0 +1,4 @@
+VIEW "HW3_Yurkavets::ActiveCompanies" 
+ AS SELECT "companyId", "name"
+ FROM "HW3_Yurkavets::Company" 
+ WHERE "status" = 'Active'  

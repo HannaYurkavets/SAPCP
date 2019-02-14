@@ -1,5 +1,5 @@
 namespace HW3_Yurkavets; 
- 
+
 entity Company {     
 	@Comment: 'Id of Company'     
 	key companyId : String(4);     
