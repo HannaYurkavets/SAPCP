@@ -1,0 +1,5 @@
+PROCEDURE "HW3_Yurkavets::GetActiveCompanies" ( )
+	AS 
+	BEGIN
+	SELECT * FROM "HW3_Yurkavets::ActiveCompanies";
+	END
