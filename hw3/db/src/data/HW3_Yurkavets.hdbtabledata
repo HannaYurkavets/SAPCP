@@ -1,0 +1,58 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "HW3_Yurkavets::Company",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "HW3_Yurkavets::Company.csv",
+        "has_header": true
+      },
+      "import_settings": {
+        "import_columns": [
+          "companyId",
+          "name",
+		  "startDate",
+		  "status",
+		  "country",
+		  "currency"
+        ]
+      }
+    },
+    {
+      "target_table": "HW3_Yurkavets::Department",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "HW3_Yurkavets::Department.csv",
+        "has_header": true
+      },
+      "import_settings": {
+        "import_columns": [
+					"departmentId",
+					"name",
+					"startDate",
+					"status",
+					"country",
+					"companyId"
+        ]
+      }
+    },
+    {
+      "target_table": "HW3_Yurkavets::Location",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "HW3_Yurkavets::Location.csv",
+        "has_header": true
+      },
+      "import_settings": {
+        "import_columns": [
+					"locationId",
+					"name",
+					"status",
+					"weeklyHours",
+					"companyId"
+        ]
+      }
+    }
+  ]
+}

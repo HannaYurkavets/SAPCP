@@ -1,0 +1,4 @@
+companyId,name,startDate,status,country,currency
+0001,LeverX Group,2003/03/12,Active,Belarus,USD
+0002,Epam,2001/03/20,Active,Belarus,USD
+0004,Integral,1980/09/09,Inactive,Belarus,USD
